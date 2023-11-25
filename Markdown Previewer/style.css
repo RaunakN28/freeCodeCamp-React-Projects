@@ -1,0 +1,55 @@
+:root {
+    --color-1: #87b5b5;
+    --color-2: #c0d8db;
+    --color-3: #ffffff;
+  }
+  
+  body {
+    font-size: 18px;
+    background-color: var(--color-1);
+    font-family: sans-serif;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #editor, #previewer {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--color-2);
+  }
+  
+  #editor {
+    min-height: 200px;
+    max-width: 600px;
+    min-width: 600px;
+  }
+  
+  #preview {
+    width: 55%;
+    background-color: var(--color-2);
+    padding: 30px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  pre, code {
+    background-color: var(--color-3);
+  }
+  
+  pre {
+    padding: 10px;
+  }
+  
+  @media(min-width: 992px){
+    .main {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  

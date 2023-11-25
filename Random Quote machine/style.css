@@ -1,0 +1,85 @@
+:root {
+    --color-1: #9139b5;
+    --color-2: #ffffff;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-1);
+  }
+  
+  #quote-box {
+    background-color: #ffffff;
+    width: 450px;
+    padding: 40px;
+    border-radius: 5px;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  
+  .button, #tweet-icon {
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #tweet-icon {
+    font-size: 30px;
+    background-color: var(--color-2);
+    color: var(--color-1);
+    font-size: 40px;
+  }
+  
+  #new-quote {
+    font-size: 15px;
+    border: 0;
+    padding: 5px 20px;
+    background-color: var(--color-1);
+    color: var(--color-2);
+  }
+  
+  #text {
+    font-size: 30px;
+    color: var(--color-1);
+    text-align: center;
+   
+  }
+  
+  #author {
+    display: flex;
+    justify-content: flex-end;
+    color: var(--color-1);
+    margin: 20px auto;
+    font-weight: 100;
+  }
+
+  #profile {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  #profile a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #profile a:hover {
+    color: red;
+  }
